@@ -23,6 +23,7 @@ body {
 #area-principal {
     width: 920px; /* Largura padrão pra manter organizado */
     margin: 0 auto; /* Centraliza a área principal */
+    padding-top: 20px;
 }
 
 #area-lateral {
