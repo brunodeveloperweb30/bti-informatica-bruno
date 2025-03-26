@@ -1,0 +1,43 @@
+<!-- Declaração do tipo de documento como HTML5 -->
+<!DOCTYPE html>
+<html lang="pt-br"> <!-- Define o idioma principal como português do Brasil -->
+<head>
+    <meta charset="UTF-8"> <!-- Garante que acentos e caracteres especiais sejam exibidos corretamente -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ajusta a página para dispositivos móveis -->
+    <title>Contato - BTI Informática</title> <!-- Título da aba no navegador -->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"> <!-- Importa o arquivo CSS de estilos -->
+</head>
+<body>
+
+    <div id="area-cabecalho"> <!-- Área do cabeçalho -->
+        <div id="area-logo"> <!-- Área do logo -->
+            <h1><span class="bt">BT<span class="branco">Informática</span></h1> <!-- Logo da BTI Informática -->
+        </div>
+
+        <div id="area-menu"> <!-- Menu de navegação -->
+            <a href="index.html">Sobre mim</a> <!-- Link para a página 'Sobre mim' -->
+            <a href="formacao.html">Formação Educacional</a> <!-- Link para a página 'Formação Educacional' -->
+            <a href="portfolio.html">Portfólio</a> <!-- Link para a página 'Portfólio' -->
+            <a href="contato.html">Contato</a> <!-- Link para a página 'Contato' -->
+        </div>
+    </div>
+
+    <div id="area-principal"> <!-- Área principal do conteúdo -->
+        <h2>Entre em Contato</h2> <!-- Título da seção de contato -->
+
+        <form action="#" method="POST" id="form-contato"> <!-- Formulário de contato -->
+            <label for="nome">Nome:</label> <!-- Rótulo para o campo Nome -->
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required> <!-- Campo para inserir o nome -->
+
+            <label for="email">Email:</label> <!-- Rótulo para o campo Email -->
+            <input type="email" id="email" name="email" placeholder="Seu email" required> <!-- Campo para inserir o email -->
+
+            <label for="mensagem">Mensagem:</label> <!-- Rótulo para o campo Mensagem -->
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Sua mensagem" required></textarea> <!-- Área de texto para inserir a mensagem -->
+
+            <button type="submit">Enviar</button> <!-- Botão para enviar o formulário -->
+        </form>
+    </div>
+
+</body>
+</html>

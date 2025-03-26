@@ -1,0 +1,179 @@
+* { 
+    margin: 0; /* Tirar margens padrão pra não ficar desalinhado */
+    padding: 0; /* Tira o espaço interno padrão também */
+}
+
+body {
+    font-size: 1em; /* Texto padrão, nem muito grande nem pequeno */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Fonte que deixa o texto mais legível */
+    background: white; /* Fundo branco básico */
+}
+
+#area-cabecalho {
+    background-color: #2f0847; /* Roxinho no cabeçalho pra destacar */
+    color: white; /* Texto branco pra combinar com o fundo roxo */
+    padding: 30px; /* Espaço interno pra não ficar espremido */
+    text-align: center; /* Centraliza tudo bonitinho */
+}
+
+#area-logo, #area-menu {
+    padding: 10px; /* Um espacinho dentro do logo e menu pra não grudar */
+}
+
+#area-principal {
+    width: 920px; /* Largura padrão pra manter organizado */
+    margin: 0 auto; /* Centraliza a área principal */
+}
+
+#area-lateral {
+    background: white; /* Deixa branco pra não pesar muito na cor */
+    padding-top: 78px; /* Dá uma distância do topo */
+}
+
+#area-postagens {
+    width: 660px; /* Área principal das postagens */
+    float: left; /* Joga essa área pra esquerda */
+}
+
+#area-postagens-formacao {
+    width: 860px; /* Área maior pras postagens de formação */
+}
+
+#area-lateral {
+    width: 240px; /* Largura padrão da barra lateral */
+    float: right; /* Joga essa parte pra direita */
+}
+
+.postagem {
+    padding: 20px; /* Espaçamento dentro de cada postagem */
+    margin-bottom: 20px; /* Espaço entre as postagens */
+    background: white; /* Fundo branco básico */
+}
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px; /* Espaço interno padrão */
+    margin-bottom: 20px; /* Espaço entre as seções laterais */
+}
+
+.texto-lateral {
+    font-size: 1em; /* Texto padrão nas laterais */
+    padding: 5px; /* Um espaçamento interno leve */
+    border-bottom: 1px dotted #ccc; /* Linha pontilhada pra dividir seções */
+}
+
+#rodape {
+    clear: both; /* Faz o rodapé sempre ficar no final */
+    text-align: center; /* Centraliza o texto */
+    padding: 15px; /* Dá um espaço confortável no rodapé */
+    background: #2f0847; /* Roxinho igual ao cabeçalho pra combinar */
+    color: white; /* Texto branco pra destacar no fundo roxo */
+}
+
+/* LINKS */
+a {
+    text-decoration: none; /* Tira aquele sublinhado chato */
+}
+
+a:link, a:visited {
+    color: #2f0847; /* Roxinho nos links padrão e visitados */
+    padding: 8px 12px; /* Espaçamento pra deixar maior e clicável */
+}
+
+a:hover {
+    color: #2f0847; /* Mantém a cor fixa */
+    text-decoration: underline; /* Adiciona sublinhado só ao passar o mouse */
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: white; /* Links brancos no cabeçalho pro contraste */
+}
+
+#area-cabecalho a:hover {
+    color: #2f0847; /* Fica roxo ao passar o mouse */
+    background: white; /* Fundo branco no hover pra destacar */
+}
+
+/* TÍTULOS */
+h1 {
+    color: #ffffff; /* Título principal branco pra se destacar */
+    font-size: 2.5em; /* Bem grandão mesmo */
+}
+
+h2 {
+    color: #2f0847; /* Roxinho pros subtítulos pra manter o padrão */
+}
+
+h3 {
+    color: #565656; /* Cinzinha suave pros títulos menores */
+    background: #CCC; /* Fundo cinza claro pra destacar */
+    padding: 5px; /* Espaço dentro do título pra não colar */
+}
+
+.branco {
+    color: #cae164; /* Corzinha amarelada diferente pra chamar atenção */
+    transition: transform 0.3s ease; /* Efeito suave ao passar o mouse */
+    display: inline-block; /* Permite aplicar efeitos como `scale` */
+}
+
+.branco:hover {
+    transform: scale(0.95); /* Dá uma encolhidinha legal no hover */
+}
+
+.data-postagem {
+    font-size: 0.8em; /* Data menorzinha pra não roubar atenção */
+    border-bottom: 1px solid #f4f4f4; /* Linha sutil separando */
+    padding-bottom: 10px; /* Espaçamento pra ficar organizado */
+    display: block; /* Ocupa a linha toda */
+}
+
+.grande {
+    font-size: 2em; /* Texto grandão pra chamar atenção */
+}
+
+#area-logo h1 {
+    font-size: 40px; /* Tamanho padrão do título principal */
+}
+
+#area-logo h1 .bt {
+    font-size: 40px; /* Deixa o "BT" com tamanho específico */
+    vertical-align: middle; /* Alinha no meio certinho */
+}
+
+/* CAMPOS DO FORMULÁRIO */
+form input, form textarea {
+    width: 100%; /* Campos esticados pra facilitar digitação */
+    padding: 10px; /* Espaço confortável nos campos */
+    margin-bottom: 15px; /* Espaço entre cada campo */
+    border: 1px solid #ccc; /* Bordas discretas */
+    border-radius: 5px; /* Cantinhos arredondados pro visual legal */
+    font-size: 1em; /* Fonte padrão */
+}
+
+form textarea {
+    margin-top: 30px; /* Dá uma afastadinha pra não ficar colado */
+}
+
+/* BOTÃO */
+form button {
+    background-color: #2f0847; /* Roxinho padrão */
+    color: white; /* Texto branco no botão pra destacar */
+    padding: 12px; /* Botão grandinho pra ser fácil de clicar */
+    width: 100%; /* Botão largão */
+    border: none; /* Sem borda, visual limpo */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Mãozinha pra indicar que dá pra clicar */
+}
+
+form button:hover {
+    background-color: #5d1f77; /* Roxo mais escuro no hover */
+}
+
+/* GIF FINAL */
+.gif-final {
+    position: absolute; /* Deixa ele grudado no final */
+    bottom: 0; /* No pé da página */
+    left: 50%; /* Centralizado no meio */
+    width: 150px; /* Tamanho ideal pro visual */
+    margin-bottom: 20px; /* Um espacinho pra não colar na borda */
+}

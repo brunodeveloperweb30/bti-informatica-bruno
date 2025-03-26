@@ -1,0 +1,93 @@
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: cornflowerblue; /* Fundo azul bonito pra destacar o título */
+    width: 91%; /* Dei uma ajustada pra não ocupar a tela toda */
+    height: 70px;
+    text-align: center; /* Deixa o texto no meio */
+    line-height: 70px; /* Centraliza verticalmente */
+    color: white; /* Deixa o texto branco pra destacar */
+}
+
+div {
+    width: 25%; /* Cada imagem vai ocupar 25% do espaço */
+    height: 400px; /* Mantém um tamanho padrão */
+    background-size: cover; /* Faz a imagem cobrir o espaço certinho */
+    float: left; /* Coloca as imagens lado a lado */
+    margin: 2px; /* Dá um espaçamento pra não grudar */
+}
+
+.img {
+    background-image: url('https://cdn.pixabay.com/photo/2014/04/05/11/06/man-314424_1280.jpg'); /* Primeira imagem */
+}
+
+.img2 {
+    background-image: url('https://cdn.pixabay.com/photo/2020/04/24/20/27/computer-5088593_1280.jpg'); /* Segunda imagem */
+}
+
+.img3 {
+    background-image: url('https://cdn.pixabay.com/photo/2014/08/26/21/27/service-428540_960_720.jpg'); /* Terceira imagem */
+    width: 40%; /* Essa eu deixei maior pra dar um destaque */
+}
+
+.form-container {
+    width: 90%; /* O formulário ocupa quase a tela toda */
+    margin: auto; /* Centraliza na tela */
+    padding: 20px;
+    background: white;
+    text-align: center; /* Alinha o conteúdo no meio */
+}
+
+table {
+    width: 200%; /* Tamanho exagerado, pode ajustar se precisar */
+    border-collapse: collapse; /* Tira os espaços entre as células */
+}
+
+td {
+    padding: 10px;
+    text-align: left; /* Deixa os textos alinhados à esquerda */
+}
+
+input {
+    width: 100%; /* Ocupa todo o espaço da célula */
+    padding: 8px;
+    border: 2px solid #ccc; /* Borda cinza pra dar um destaque */
+    border-radius: 5px; /* Arredondado pra ficar bonito */
+}
+
+button {
+    background-color: #28a745; /* Verde chamativo */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Muda o cursor pra indicar que pode clicar */
+    width: 60%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #218838; /* Tom de verde um pouco mais escuro quando passa o mouse */
+}
+
+.listas {
+    display: -webkit-inline-box; /* Deixa as listas lado a lado */
+    justify-content: center; /* Centraliza as listas */
+    gap: 50px; /* Espaço entre elas pra não ficarem grudadas */
+}
+
+.listas ul {
+    list-style-type: none; /* Remove os pontinhos da lista */
+    padding: 0;
+    text-align: center; /* Centraliza o texto */
+    background: #f4f4f4; /* Fundo cinza claro */
+    padding: 15px;
+    border-radius: 10px; /* Deixa os cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra pra destacar */
+}
+
+.h3 {
+    color: #069ff7; /* Azul vibrante */
+    width: auto; /* Ajuste automático */
+}
