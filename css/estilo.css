@@ -78,20 +78,25 @@ a {
 a:link, a:visited {
     color: #2f0847; /* Roxinho nos links padrão e visitados */
     padding: 8px 12px; /* Espaçamento pra deixar maior e clicável */
+    text-decoration: none;
 }
+
 
 a:hover {
     color: #2f0847; /* Mantém a cor fixa */
     text-decoration: underline; /* Adiciona sublinhado só ao passar o mouse */
+    text-decoration: none;
 }
 
 #area-cabecalho a:link, #area-cabecalho a:visited {
     color: white; /* Links brancos no cabeçalho pro contraste */
+    text-decoration: none;
 }
 
 #area-cabecalho a:hover {
     color: #2f0847; /* Fica roxo ao passar o mouse */
     background: white; /* Fundo branco no hover pra destacar */
+    text-decoration: none;
 }
 
 /* TÍTULOS */
